@@ -13,7 +13,7 @@ baseurl: "/xlf-blog"                             # for example, '/blog' if your 
 
 # SNS settings
 RSS: false
-weibo_username:     shamrock1112
+#weibo_username:     shamrock1112
 github_username:    muyudou
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
@@ -67,7 +67,7 @@ netease_comment: false
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "努力奔跑，好好生活 <br> 哈哈哈哈"
-sidebar-avatar: /img/douzi-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /xlf-blog/img/douzi-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
