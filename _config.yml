@@ -6,7 +6,7 @@ header-img: img/home-bg.jpg
 email: muyudou@gmail.com
 description: "关于前端与设计 | 这里是 @豆子 的个人博客，与你一起发现更大的世界。"
 keyword: "豆子, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://douzi.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -98,3 +98,7 @@ friends: [
         href: "http://qianduan.guru/"
     }
 ]
+
+
+theme: jekyll-theme-cayman
+>>>>>>> 8aba94b3c08274df2ae93637e4468c0ab04f8105
