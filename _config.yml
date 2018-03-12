@@ -10,6 +10,7 @@ baseurl: "/xlf-blog"                             # for example, '/blog' if your 
 
 
 
+
 # SNS settings
 RSS: false
 weibo_username:     huxpro
