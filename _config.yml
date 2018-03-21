@@ -85,11 +85,8 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "颜海镜",
+        href: "https://yanhaijing.com/"
     },{
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
