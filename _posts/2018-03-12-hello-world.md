@@ -1,5 +1,31 @@
 ---
 　　layout: default
-　　title: 你好，世界
+　　title: 判断回文算法
 ---
-1. hahaha
+题目：判断一个字符串是回文字符串
+方法1：借助数组方法
+```
+// 判断回文字符串
+function isPalindromic(str) {
+    var s = str.split('').reverse().join('');
+    return s === str;
+}
+```
+方法2：字符串判断
+```
+function isPalindromic(str) {
+    let len = str.length;
+    let mid = parseInt(len / 2);
+    while (mid < len) {
+        if (str[mid] !== str[len - mid - 1]) {
+            return false;
+        }
+        mid++;
+    }
+    return true;
+}
+```
+parseInt(): 字符串转整数
+Math.ceil(): 向上舍入
+Math.floor(): 向下舍入
+Math.round(): 四舍五入

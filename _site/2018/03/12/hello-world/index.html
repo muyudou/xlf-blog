@@ -1,0 +1,25 @@
+<p>题目：判断一个字符串是回文字符串
+方法1：借助数组方法</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 判断回文字符串
+function isPalindromic(str) {
+    var s = str.split('').reverse().join('');
+    return s === str;
+}
+</code></pre></div></div>
+<p>方法2：字符串判断</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function isPalindromic(str) {
+    let len = str.length;
+    let mid = parseInt(len / 2);
+    while (mid &lt; len) {
+        if (str[mid] !== str[len - mid - 1]) {
+            return false;
+        }
+        mid++;
+    }
+    return true;
+}
+</code></pre></div></div>
+<p>parseInt(): 字符串转整数
+Math.ceil(): 向上舍入
+Math.floor(): 向下舍入
+Math.round(): 四舍五入</p>
